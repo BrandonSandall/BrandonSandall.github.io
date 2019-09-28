@@ -56,8 +56,9 @@
           <h1 class="site-heading site-animate">Hello, I'm <strong>Brandon Sandall</strong></h1>
           <p class="lead site-subheading mb-4 site-animate">Constantly improving myself and those around me to achieve
             our goals.</p>
-          <p><a href="#section-about" class="smoothscroll btn btn-primary px-2 py-1" style="letter-spacing: 0px; margin-top: 100px"><i
-            class="icon-arrow-down22" aria-hidden="true"></i></a></p>
+          <p><a href="#section-about" class="smoothscroll btn btn-primary px-2 py-1"
+              style="letter-spacing: 0px; margin-top: 100px"><i class="icon-arrow-down22" aria-hidden="true"></i></a>
+          </p>
         </div>
       </div>
     </div>
@@ -93,7 +94,7 @@
           </div>
         </div>
         <div class="col-md-9">
-          
+
           <div class="skill">
             <h3>Design</h3>
             <div class="progress">
@@ -497,10 +498,29 @@
         </div>
 
         <div class="col-md-7 mb-5 mb-md-0">
+          <form method="POST" action="https://formspree.io/brandsand@gmail.com" class="site-form">
+            <h3 class="mb-5">Get In Touch</h3>
+            <div class="form-group">
+              <input type="name" class="form-control px-3 py-4" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email" class="form-control px-3 py-4">
+            </div>
+            <div class="form-group">
+                <input type="phone" class="form-control px-3 py-4" placeholder="Phone Number">
+              </div>
+            <div class="form-group">
+              <textarea name="message" placeholder="Write a Message" class="form-control px-3 py-4"></textarea>
+            </div>
+            <div class="form-group">
+              <button type="submit" class="btn btn-primary px-4 py-3" value="Send Message">Submit</button>
+            </div>
+          </form>
+
           <form action="mail.php" method="post" class="site-form">
             <h3 class="mb-5">Get In Touch</h3>
             <div class="form-group">
-              <input type="name" class="form-control px-3 py-4" placeholder="Name" required>
+              <input type="name" class="form-control px-3 py-4" placeholder="Name">
             </div>
             <div class="form-group">
               <input type="email" class="form-control px-3 py-4" placeholder="Email">
