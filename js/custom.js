@@ -121,13 +121,13 @@
 				 	st = $this.scrollTop(),
 				 	navbar = $('.site-navbar');
 
-			if ( st > 200 ) {
+			if ( st > 100 ) {
 				navbar.addClass('scrolled');
 			} else {
 				navbar.removeClass('scrolled awake');
 			}
 
-			if ( navbar.hasClass('scrolled') && st > 300 ) {
+			if ( navbar.hasClass('scrolled') && st > 200 ) {
 		   	if (st > lastScrollTop){
 		      // if (navbar.hasClass('scrolled')) {
 		      	navbar.removeClass('awake');
